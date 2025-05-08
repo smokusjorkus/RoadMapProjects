@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    margin: 30px auto;
+    padding: 40px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid #ccc;
+}
+
+
+.body {
+    font-family: "Open Sans", sans-serif;
+    background: #b4adad;
+    box-sizing: border-box;    
+    padding: 300px;
+    display: flex;
+    justify-content: center;    
+}
+
+.name{
+    font-size: 50px;
+    font-weight: 800;
+    color: #000;
+    font-family: "Open Sans", sans-serif;
+    padding: 10px;
+}
+
+.header-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.profile-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.profile-image img{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #000;
+    border-radius: 30%;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
+    margin: 20px;
+}
+
+.profile-image img:hover {
+    transform: scale(1.05);
+}
+
+.header-container h1{
+    font-size: 40px;
+    font-weight: 800;
+    color: #000;
+    font-family: "Open Sans", sans-serif;
+    padding: 10px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.header-container:hover{
+    text-decoration: none;
+    scale: 1.1;
+    transition: all 0.3s ease;
+    color: #785757;
+}
+
+.header-container h2{
+    font-size: 30px;
+    font-weight: 800;
+    font-family: "Open Sans", sans-serif;
+}
+
+.contact{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 20px;
+}
+
+.contact:hover{
+    color: #000;
+    text-decoration: none;
+    scale: 1.1;
+    transition: all 0.3s ease;
+    color: #785757;
+}
+
+.skills{
+    font-family: "Open Sans", sans-serif;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px;
+}
+
+.skills ul{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-size: 2rem;
+    font-family: "Open Sans", sans-serif;
+}
+
+.skills ul:hover{
+    text-decoration: none;
+    scale: 1.1;
+    transition: all 0.3s ease;
+    color: #785757;
+}
+
+.education{
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.experience-container{
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+.experience{
+    margin: 10px;
+}
+
+.donBosco:hover{
+    text-decoration: none;
+    transition: all 0.3s ease;
+    color: #785757;
+    scale: 1.1;
+}
+
+.experiences_list{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    width: 80%;
+    box-sizing: border-box;
+    padding: 20px;
+    list-style: decimal;
+}
+
+.skills_gained_container{
+    box-sizing: border-box;
+    pad: 10px;
+}
+
+.skills_gained_container ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+.skills_gained_container h3{
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 2rem;
+    font-family: "Open Sans", sans-serif;
+}
